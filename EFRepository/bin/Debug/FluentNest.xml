@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FluentNest</name>
+    </assembly>
+    <members>
+        <member name="M:FluentNest.GroupBys.GroupBy``1(Nest.AggregationContainerDescriptor{``0},System.String)">
+            <summary>
+            Creates a nested aggregation. Wraps the aggregation on which it is called by a new Terms aggregation, using the provided fieldName.
+            </summary>
+        </member>
+        <member name="M:FluentNest.GroupBys.GroupBy``1(Nest.AggregationContainerDescriptor{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">
+            <summary>
+            Creates a nested aggregation. Wraps the aggregation on which it is called by a new Terms aggregation, using the provided fieldGetter function to terms on the field.
+            </summary>
+        </member>
+        <member name="M:FluentNest.GroupBys.GroupBy``1(Nest.AggregationContainerDescriptor{``0},System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Groups on the list of provided fields, returns multiple nested groups
+            </summary>
+        </member>
+        <member name="M:FluentNest.GroupBys.GetGroupBy(Nest.AggregateDictionary,System.String)">
+            <summary>
+            Retrieves the terms aggregation just by it's name
+            </summary>
+        </member>
+        <member name="M:FluentNest.GroupBys.GetGroupBy``1(Nest.AggregateDictionary,System.Linq.Expressions.Expression{System.Func{``0,System.Object}})">
+            <summary>
+            Retrieves the list of buckets if terms aggregation is present
+            </summary>
+        </member>
+        <member name="M:FluentNest.GroupBys.CheckForAggregationInResult(Nest.AggregateDictionary,System.String)">
+            <summary>
+            Checks if aggregation with given name is available on the result and throws if not
+            </summary>
+        </member>
+        <member name="M:FluentNest.StatisticsGetters.ValueAsUndType``1(Nest.ValueAggregate)">
+            <summary>
+            Takes a value metric and forces a conversion to certain type
+            </summary>
+        </member>
+    </members>
+</doc>

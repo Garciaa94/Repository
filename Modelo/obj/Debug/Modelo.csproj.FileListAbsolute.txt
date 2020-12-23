@@ -1,0 +1,17 @@
+C:\Users\AdrianGarcia\source\repos\Repository\Modelo\obj\Debug\Modelo.csprojAssemblyReference.cache
+C:\Users\AdrianGarcia\source\repos\Repository\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\AdrianGarcia\source\repos\Repository\Modelo\bin\Debug\Modelo.dll.config
+C:\Users\AdrianGarcia\source\repos\Repository\Modelo\bin\Debug\Modelo.dll
+C:\Users\AdrianGarcia\source\repos\Repository\Modelo\bin\Debug\Modelo.pdb
+C:\Users\AdrianGarcia\source\repos\Repository\Modelo\bin\Debug\EFRepository.dll
+C:\Users\AdrianGarcia\source\repos\Repository\Modelo\bin\Debug\EntityFramework.dll
+C:\Users\AdrianGarcia\source\repos\Repository\Modelo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AdrianGarcia\source\repos\Repository\Modelo\bin\Debug\Repository.dll
+C:\Users\AdrianGarcia\source\repos\Repository\Modelo\bin\Debug\EFRepository.pdb
+C:\Users\AdrianGarcia\source\repos\Repository\Modelo\bin\Debug\EFRepository.dll.config
+C:\Users\AdrianGarcia\source\repos\Repository\Modelo\bin\Debug\Repository.pdb
+C:\Users\AdrianGarcia\source\repos\Repository\Modelo\bin\Debug\EntityFramework.xml
+C:\Users\AdrianGarcia\source\repos\Repository\Modelo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AdrianGarcia\source\repos\Repository\Modelo\obj\Debug\Modelo.csproj.CopyComplete
+C:\Users\AdrianGarcia\source\repos\Repository\Modelo\obj\Debug\Modelo.dll
+C:\Users\AdrianGarcia\source\repos\Repository\Modelo\obj\Debug\Modelo.pdb

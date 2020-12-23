@@ -1,0 +1,17 @@
+C:\Users\AdrianGarcia\source\repos\Repository\TestConsole\obj\Debug\TestConsole.csproj.CoreCompileInputs.cache
+C:\Users\AdrianGarcia\source\repos\Repository\TestConsole\obj\Debug\TestConsole.csprojAssemblyReference.cache
+C:\Users\AdrianGarcia\source\repos\Repository\TestConsole\bin\Debug\TestConsole.exe
+C:\Users\AdrianGarcia\source\repos\Repository\TestConsole\bin\Debug\TestConsole.pdb
+C:\Users\AdrianGarcia\source\repos\Repository\TestConsole\bin\Debug\EFRepository.dll
+C:\Users\AdrianGarcia\source\repos\Repository\TestConsole\bin\Debug\Modelo.dll
+C:\Users\AdrianGarcia\source\repos\Repository\TestConsole\bin\Debug\Repository.dll
+C:\Users\AdrianGarcia\source\repos\Repository\TestConsole\bin\Debug\EntityFramework.dll
+C:\Users\AdrianGarcia\source\repos\Repository\TestConsole\bin\Debug\EFRepository.pdb
+C:\Users\AdrianGarcia\source\repos\Repository\TestConsole\bin\Debug\EFRepository.dll.config
+C:\Users\AdrianGarcia\source\repos\Repository\TestConsole\bin\Debug\Modelo.pdb
+C:\Users\AdrianGarcia\source\repos\Repository\TestConsole\bin\Debug\Modelo.dll.config
+C:\Users\AdrianGarcia\source\repos\Repository\TestConsole\bin\Debug\Repository.pdb
+C:\Users\AdrianGarcia\source\repos\Repository\TestConsole\bin\Debug\EntityFramework.xml
+C:\Users\AdrianGarcia\source\repos\Repository\TestConsole\obj\Debug\TestConsole.csproj.CopyComplete
+C:\Users\AdrianGarcia\source\repos\Repository\TestConsole\obj\Debug\TestConsole.exe
+C:\Users\AdrianGarcia\source\repos\Repository\TestConsole\obj\Debug\TestConsole.pdb
