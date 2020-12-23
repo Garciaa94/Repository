@@ -1,6 +1,5 @@
 C:\Users\AdrianGarcia\source\repos\Repository\Repository\bin\Debug\Repository.dll
 C:\Users\AdrianGarcia\source\repos\Repository\Repository\bin\Debug\Repository.pdb
-C:\Users\AdrianGarcia\source\repos\Repository\Repository\obj\Debug\Repository.csprojAssemblyReference.cache
 C:\Users\AdrianGarcia\source\repos\Repository\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
 C:\Users\AdrianGarcia\source\repos\Repository\Repository\obj\Debug\Repository.dll
 C:\Users\AdrianGarcia\source\repos\Repository\Repository\obj\Debug\Repository.pdb

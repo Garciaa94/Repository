@@ -8,7 +8,6 @@ namespace Repository
 {
     public interface IUnitOfWork:IRepository
     {
-
-        int save();
+        int Save();
     }
 }

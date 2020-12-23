@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFRepository", "EFRepository\EFRepository.csproj", "{2D08E9FA-8B59-4563-A10E-75A6EBC62B32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelo", "Modelo\Modelo.csproj", "{7B937749-2530-4687-A371-BBEB93BFD7EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{48144AA6-E116-413D-98FD-94BF02112EA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{2D08E9FA-8B59-4563-A10E-75A6EBC62B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D08E9FA-8B59-4563-A10E-75A6EBC62B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D08E9FA-8B59-4563-A10E-75A6EBC62B32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B937749-2530-4687-A371-BBEB93BFD7EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B937749-2530-4687-A371-BBEB93BFD7EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B937749-2530-4687-A371-BBEB93BFD7EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B937749-2530-4687-A371-BBEB93BFD7EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48144AA6-E116-413D-98FD-94BF02112EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48144AA6-E116-413D-98FD-94BF02112EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48144AA6-E116-413D-98FD-94BF02112EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48144AA6-E116-413D-98FD-94BF02112EA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

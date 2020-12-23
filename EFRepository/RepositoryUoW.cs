@@ -12,7 +12,7 @@ namespace EFRepository
     {
         public RepositoryUoW(DbContext context,
             bool autoDetectChangeEnable = false,
-             bool proxyCreationEnabled = false) :
+            bool proxyCreationEnabled = false) :
             base(context, autoDetectChangeEnable, proxyCreationEnabled)
         {
 
@@ -24,12 +24,12 @@ namespace EFRepository
             return 0;
         }
         
-        int IUnitOfWork.save()
+        int IUnitOfWork.Save()
         {
             int Result = 0;
             try
             {
-                Result = context.SaveChanges();
+                Result = Context.SaveChanges();
             }
             catch(Exception e)
             {

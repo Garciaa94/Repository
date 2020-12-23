@@ -12,13 +12,13 @@ namespace Repository
     {
 
         // crear metodo Agregar
-        TEntity create<TEntity>(TEntity newTEntity) where TEntity : class;
+        TEntity Create<TEntity>(TEntity newTEntity) where TEntity : class;
 
         //actualizar
         bool Update<TEntity>(TEntity modifiedTEntity) where TEntity : class;
 
         //eliminar
-        bool delete<TEntity>(TEntity deleteTEntity) where TEntity : class;
+        bool Delete<TEntity>(TEntity deleteTEntity) where TEntity : class;
 
         //buscar
         TEntity FinEntity<TEntity>(Expression<Func<TEntity,bool>>criteria) where TEntity : class;

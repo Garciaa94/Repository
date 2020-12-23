@@ -13,42 +13,47 @@ namespace EFRepository
 {
     public class Repository :IRepository,IDisposable
     {
-        protected DbContext context;
+        protected DbContext Context;
         public Repository(DbContext context,
-            bool autoDetectChangeEnable= false,
-             bool proxyCreationEnabled = false)
+            bool autoDetectChangesEnabled= false,
+            bool proxyCreationEnabled = false)
         {
-            this.context.Configuration.AutoDetectChangesEnabled = autoDetectChangeEnable;
-            this.context.Configuration.ProxyCreationEnabled = proxyCreationEnabled;
+            this.Context.Configuration.AutoDetectChangesEnabled = autoDetectChangesEnabled;
+            this.Context.Configuration.ProxyCreationEnabled = proxyCreationEnabled;
         }
-        public TEntity create<TEntity>(TEntity newTEntity) where TEntity : class
+        public TEntity Create<TEntity>(TEntity newTEntity) where TEntity : class
         {
             TEntity Result = null;
             try
             {
-                Result = context.Set<TEntity>().Add(newTEntity);
+                Result = Context.Set<TEntity>().Add(newTEntity);
                 TrySaveChange();
             }
             catch (Exception e)
             {
                 throw (e);
             }
-            return Result; 
+            return Result;
+        }
+
+        private static TEntity NewMethod<TEntity>() where TEntity : class
+        {
+            return null;
         }
 
         protected virtual int TrySaveChange()
         {
-            return context.SaveChanges();
+            return Context.SaveChanges();
         }
 
-        public bool delete<TEntity>(TEntity deleteTEntity) where TEntity : class
+        public bool Delete<TEntity>(TEntity deleteTEntity) where TEntity : class
         {
             bool Result = false;
             try
             {
-                context.Set<TEntity>().Attach(deleteTEntity);
-                context.Set<TEntity>().Attach(deleteTEntity);
-                Result = TrySaveChange() < 0;
+                Context.Set<TEntity>().Attach(deleteTEntity);
+                Context.Set<TEntity>().Attach(deleteTEntity);
+                Result = TrySaveChange() > 0;
             }
             catch (Exception e)
             {
@@ -67,7 +72,7 @@ namespace EFRepository
             List<TEntity> Result = null;
             try
             {
-                Result = context.Set<TEntity>().Where(criteria).ToList();
+                Result = Context.Set<TEntity>().Where(criteria).ToList();
             }
             catch (Exception e)
             {
@@ -81,7 +86,7 @@ namespace EFRepository
             TEntity Result = null;
             try
             {
-                Result = context.Set<TEntity>().FirstOrDefault(criteria);
+                Result = Context.Set<TEntity>().FirstOrDefault(criteria);
                 
             }
             catch (Exception e)
@@ -96,8 +101,8 @@ namespace EFRepository
             bool Result = false;
             try
             {
-                context.Set<TEntity>().Attach(modifiedTEntity);
-                context.Entry<TEntity>(modifiedTEntity).State=EntityState.Modified;
+                Context.Set<TEntity>().Attach(modifiedTEntity);
+                Context.Entry<TEntity>(modifiedTEntity).State=EntityState.Modified;
                 Result = TrySaveChange() < 0;
             }
             catch (Exception e)
