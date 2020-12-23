@@ -53,6 +53,9 @@
     <Compile Include="Category.cs">
       <DependentUpon>NorthwindDBModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Customer.cs">
+      <DependentUpon>NorthwindDBModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="NorthwindDBModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
